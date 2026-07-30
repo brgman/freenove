@@ -22,6 +22,8 @@
   https://docs.arduino.cc/built-in-examples/basics/Blink/
 */
 
+#include "/home/abergman/.arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino/Arduino.h"
+
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
