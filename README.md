@@ -40,6 +40,7 @@ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno Blink
 
 # Monitor
 arduino-cli monitor -p /dev/ttyACM0 -c baudrate=9600
+
 ``` 
 
 # Settings VSCode

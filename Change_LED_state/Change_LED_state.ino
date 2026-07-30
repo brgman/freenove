@@ -8,12 +8,12 @@ void setup() {
 }
 
 void loop() {
-    if (digitalRead(btnPin) == LOW) {
-        delay(1000);
-        if (digitalRead(btnPin) == LOW) {
+    if (digitalRead(btnPin) == HIGH) {
+        delay(100);
+        if (digitalRead(btnPin) == HIGH) {
             reverseLed();
-            while (digitalRead(btnPin) == LOW)
-            delay(1000);
+            while (digitalRead(btnPin) == HIGH)
+            delay(100);
         }
     }
 }
