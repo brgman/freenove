@@ -24,5 +24,10 @@ void flowingLed(int change) {
             digitalWrite(i, LOW);
         }
     }
+    if (change % 3 == 0) {
+        digitalWrite(LED_BUILTIN, HIGH); 
+    } else {
+        digitalWrite(LED_BUILTIN, LOW); 
+    }
     delay(50);
 }
